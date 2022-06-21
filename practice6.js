@@ -9,6 +9,6 @@ let average_country_sum = array.reduce((acc, eachElement) => {
         acc[eachElement["location"]] = salary_sum;
     }
     return acc;
-}, []);
+});
 
 console.log(average_country_sum);

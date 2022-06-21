@@ -9,6 +9,6 @@ let countrySalarySum = array.reduce((acc, eachElement) => {
         acc[eachElement["location"]] = salary_sum;
     }
     return acc;
-}, []);
+});
 
 console.log(countrySalarySum);
